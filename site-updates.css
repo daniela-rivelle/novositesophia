@@ -1,0 +1,32 @@
+/* Clientes, identificação da empresa e páginas institucionais. */
+.client-showcase{padding:48px 0;background:linear-gradient(180deg,#fff,#faf9fe);border-bottom:1px solid var(--line)}
+.client-showcase .client-eyebrow{text-align:center;font-size:.67rem;letter-spacing:.14em;color:var(--purple-dark);font-weight:700;margin:0 0 12px}
+.client-showcase h2{text-align:center;font-size:clamp(1.65rem,3vw,2.2rem);letter-spacing:-.04em;margin:0 0 10px}
+.client-showcase .client-intro{text-align:center;font-size:.9rem;color:var(--muted);margin:0 0 28px}
+.client-grid{display:grid;list-style:none;padding:0;margin:0;gap:12px}
+.client-grid-primary{grid-template-columns:repeat(6,minmax(0,1fr));margin-bottom:20px}
+.client-grid-more{grid-template-columns:repeat(8,minmax(0,1fr))}
+.client-tile{min-width:0;background:white;border:1px solid #e9e6f2;border-radius:14px;display:flex;align-items:center;justify-content:center;height:102px;padding:17px;box-shadow:0 3px 10px #30205003}
+.client-tile img{display:block;width:100%;height:100%;object-fit:contain}
+.client-grid-primary .client-tile{height:110px;border-color:#ded7f2;box-shadow:0 5px 16px #7050ed08}
+.company-details{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding:28px 0 32px;border-top:1px solid #ffffff20;color:#ded4ed}
+.company-details h3{font-family:inherit;font-size:.8rem;letter-spacing:0;color:#fff;margin:0 0 14px}
+.company-details p,.company-details address,.company-details a{font-size:.76rem;line-height:1.85;color:#c5bbd5;font-style:normal;overflow-wrap:anywhere}
+.company-details p{margin:0 0 9px}.company-details a{display:block;margin-top:6px;text-decoration:underline;text-underline-offset:3px}
+.company-details strong,.company-cnpj{color:#eee7f9}.company-details a:hover{color:white}
+.lead-footer .company-details{border-top:0;padding-top:12px}
+.thanks-company{border-top:1px solid var(--line);padding-top:20px;margin-top:30px;font-size:.8rem}
+.thanks-company p{font-size:.8rem;margin:8px 0}.thanks-company a{color:var(--purple-dark);text-decoration:underline}
+.info-main{padding:68px 0 80px;background:linear-gradient(160deg,#f5f1ff,#fff 60%)}
+.info-main h1{font-size:clamp(2.3rem,5vw,3.8rem);letter-spacing:-.055em;line-height:1.12;margin:15px 0 22px}
+.info-intro{font-size:1rem;line-height:1.8;color:var(--muted);max-width:700px;margin-bottom:32px}
+.info-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.info-card{padding:30px;background:#fff;border:1px solid var(--line);border-radius:20px;min-width:0}
+.info-card h2{font-size:1.35rem;letter-spacing:-.03em;margin:0 0 18px}
+.info-card p,.info-card address{font-size:.94rem;line-height:1.8;color:var(--muted);font-style:normal;margin:0 0 22px}
+.info-card .button{font-size:.86rem;white-space:normal}.info-card .button+p{margin-top:20px;margin-bottom:0}
+.info-card a:not(.button){color:var(--purple-dark)}.info-section-title{margin:52px 0 25px;font-size:1.8rem}
+.sitemap-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.sitemap-links{list-style:none;padding:0;margin:0}.sitemap-links li+li{margin-top:14px}.sitemap-links a{font-size:.9rem;text-decoration:underline;text-underline-offset:4px;line-height:1.5}
+@media(max-width:1000px){.client-grid-more{grid-template-columns:repeat(4,minmax(0,1fr))}.company-details{grid-template-columns:repeat(2,minmax(0,1fr))}.client-grid-primary{grid-template-columns:repeat(3,minmax(0,1fr))}.sitemap-cards{grid-template-columns:1fr}}
+@media(max-width:600px){.client-showcase{padding:32px 0}.client-showcase .client-intro{font-size:.8rem}.client-grid{gap:8px}.client-grid-primary{margin-bottom:12px}.client-grid-primary .client-tile{height:75px;padding:12px}.client-grid-more{grid-template-columns:repeat(3,minmax(0,1fr))}.client-tile{height:86px;padding:10px;border-radius:10px}.company-details{grid-template-columns:1fr;gap:23px}.company-details p,.company-details a,.company-details address{font-size:.82rem}.info-main{padding:38px 0 50px}.info-cards{grid-template-columns:1fr}.info-card{padding:23px}.info-page .lead-nav{gap:18px}.info-page .lead-nav>.text-link{font-size:.8rem}}
+@media print{.company-details{color:#111}.company-details h3,.company-details p,.company-details a,.company-details address,.company-details strong,.company-cnpj{color:#111}.client-tile{break-inside:avoid}}
